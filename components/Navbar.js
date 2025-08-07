@@ -12,17 +12,17 @@ export default function Navbar() {
   };
 
   return (
-    <header className="bg-blue-500 bg-opacity-80 text-white fixed w-full top-0 z-50">
+    <header className="absolute top-0 left-0 w-full z-50 bg-[rgba(0,7,90,0.46)] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <Link href="/" className="flex justify-center items-center">
-            <div className="flex justify-center items-center h-full">
+            <div className="flex justify-center items-center h-full mt-10">
               <Image
                 src="/Logo Horizontal-04.png"
                 alt="Skills Tune Up Logo"
                 width={150}
-                height={30}
+                height={74}
                 className="object-contain cursor-pointer"
                 priority
               />
