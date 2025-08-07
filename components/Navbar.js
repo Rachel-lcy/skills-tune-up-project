@@ -47,8 +47,8 @@ export default function Navbar() {
               <Image
                 src={isOpen ? "/close.png" : "/menu.png"}
                 alt="Menu Icon"
-                width={24}
-                height={24}
+                width={30}
+                height={30}
               />
             </button>
           </div>

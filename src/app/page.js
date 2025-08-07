@@ -37,41 +37,42 @@ export default function Home() {
         </section>
       </div>
 
-        {/* About section */}
+       {/* About section */}
 
-        <section id="about" className="bg-[#fcfbfb] relative w-full pt-16 pb-16 text-center">
-          <div className="max-w-4xl mx-auto text-gray-800 tracking-widest">
+      <section id="about" className="bg-[#fcfbfb] w-full py-16 px-4 sm:px-8 text-center">
+        <div className="max-w-5xl mx-auto text-gray-800 tracking-wide">
 
-            <h2 className="text-5xl font-bold mb-2 mt-10">
-              About <span className="text-blue-500">Skill Tune Up</span>
-            </h2>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-4">
+            About <span className="text-blue-500">Skill Tune Up</span>
+          </h2>
 
-            <h3 className="text-3xl font-semibold mb-4 mt-8">
-              Supporting Immigrants. Building Careers.
-            </h3>
+          <h3 className="text-2xl sm:text-3xl font-semibold mb-6">
+            Supporting Immigrants. Building Careers.
+          </h3>
 
-
-            <p className="text-xl text-gray-700 mb-12 leading-loose">
-              We understand the challenges of starting over in a new country. That’s why Skills Tune-Up exists: to guide newcomers like you toward reliable, in-demand work as licensed security guards.
-            </p>
-
-            <ul className="text-left text-base text-gray-900 list-disc list-inside mb-10 mx-auto max-w-xl space-y-2 mt-10 leading-loose ">
-              <li>Over 10 years of real-world experience</li>
-              <li>Empathetic, one-on-one support</li>
-              <li>Interactive, engaging classes — no boring slideshows</li>
-              <li>Post-exam help with completing and submitting your license application</li>
-            </ul>
+          <p className="text-base sm:text-xl text-gray-700 mb-10 sm:leading-loose leading-relaxed">
+            We understand the challenges of starting over in a new country. That’s why Skills Tune-Up exists:
+            to guide newcomers like you toward reliable, in-demand work as licensed security guards.
+          </p>
 
 
-            <div className="flex justify-center items-center gap-8 flex-wrap">
-              <Image src="/school.png" alt="icon1" width={60} height={60} />
+          <ul className="text-left text-sm sm:text-base text-gray-900 list-disc list-inside max-w-2xl space-y-3 mb-12 leading-relaxed mx-4">
+            <li>Over 10 years of real-world experience</li>
+            <li>Empathetic, one-on-one support</li>
+            <li>Interactive, engaging classes — no boring slideshows</li>
+            <li>Post-exam help with completing and submitting your license application</li>
+          </ul>
+
+
+          <div className="flex justify-center items-center gap-6 sm:gap-10 flex-wrap">
+            <Image src="/school.png" alt="icon1" width={60} height={60} />
               <Image src="/school.png" alt="icon2" width={60} height={60} />
               <Image src="/school.png" alt="icon3" width={60} height={60} />
               <Image src="/school.png" alt="icon4" width={60} height={60} />
               <Image src="/school.png" alt="icon5" width={60} height={60} />
-            </div>
           </div>
-        </section>
+        </div>
+      </section>
 
         {/* Features / Programs section */}
         <section id="program" className="mt-20">
@@ -106,78 +107,53 @@ export default function Home() {
         </section>
 
         {/* Features */}
-        <section id="features" className="bg-[#fcfbfb] relative w-full pt-8 pb-16 ">
+        <section id="features" className="bg-[#fcfbfb] relative w-full pt-8 pb-16">
           <h2 className="text-5xl font-bold mb-2 mt-10 text-center">
-              Key <span className="text-blue-500">Features</span>
+            Key <span className="text-blue-500">Features</span>
           </h2>
 
-          <div className="flex justify-center items-center gap-24 mt-20">
-            <div className="w-80 h-36 flex flex-col items-center justify-center space-y-4 text-center">
-              <Image
-              src="/yellow.png"
-              height={40}
-              width={40}
-              alt="yellow circle"
-              className="flex justify-center"
-              />
-              <p className="w-80 h-36 text-center">Small class size for <br /> personal support and engagement</p>
-            </div >
-              <div className="w-80 h-36 flex flex-col items-center justify-center space-y-4 text-center">
-              <Image
-              src="/yellow.png"
-              height={40}
-              width={40}
-              alt="yellow circle"
-              className="flex justify-center"
-              />
-              <p className="w-80 h-36 text-center">Classes taught by a <br />former law enforcement professional  </p>
+          <div className="max-w-7xl mx-auto px-4 mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            {/* Feature 1 */}
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Image src="/yellow.png" width={40} height={40} alt="feature icon" />
+              <p>Small class size for personal support and engagement</p>
             </div>
-              <div className="w-80 h-36 flex flex-col items-center justify-center space-y-4 text-center">
-              <Image
-              src="/yellow.png"
-              height={40}
-              width={40}
-              alt="yellow circle"
-              className="flex justify-center"
-              />
-              <p className="w-80 h-36 text-center">Practice exams and exam prep <br /> </p>
+
+            {/* Feature 2 */}
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Image src="/yellow.png" width={40} height={40} alt="feature icon" />
+              <p>Practice exams and exam prep</p>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Image src="/yellow.png" width={40} height={40} alt="feature icon" />
+              <p>Classes taught by a former law enforcement professional</p>
+            </div>
+
+            {/* Feature 4 */}
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Image src="/blue.png" width={40} height={40} alt="feature icon" />
+              <p>72 hours of classroom instruction</p>
+            </div>
+
+            {/* Feature 5 */}
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Image src="/blue.png" width={40} height={40} alt="feature icon" />
+              <p>Safe, welcoming classroom environment for newcomers</p>
+            </div>
+
+            {/* Feature 6 */}
+            <div className="flex flex-col items-center text-center space-y-4">
+              <Image src="/blue.png" width={40} height={40} alt="feature icon" />
+              <p>
+                Student led role-playing & story-telling makes learning fun, engaging
+                and memorable
+              </p>
             </div>
           </div>
-
-          <div className="flex justify-center items-center gap-24 mt-20">
-            <div className="w-80 h-36 flex flex-col items-center justify-center space-y-4 text-center">
-              <Image
-              src="/blue.png"
-              height={40}
-              width={40}
-              alt="blue circle"
-              className="flex justify-center"
-              />
-              <p className="w-80 h-36 text-center">72 hours of classroom instruction </p>
-            </div >
-              <div className="w-80 h-36 flex flex-col items-center justify-center space-y-4 text-center">
-              <Image
-              src="/blue.png"
-              height={40}
-              width={40}
-              alt="blue circle"
-              className="flex justify-center"
-              />
-              <p className="w-80 h-36 text-center">Safe, welcoming classroom environment <br /> for newcomers</p>
-            </div>
-              <div className="w-80 h-36 flex flex-col items-center justify-center space-y-4 text-center">
-              <Image
-              src="/blue.png"
-              height={40}
-              width={40}
-              alt="blue circle"
-              className="flex justify-center"
-              />
-              <p className="w-80 h-36 text-center">Student led role-playing & story-telling<br /> makes learning fun, engaging and memorable  </p>
-            </div>
-          </div>
-
         </section>
+
 
         {/* CTA Section */}
         <section id="cta" className="bg-blue-500 w-full py-20">
