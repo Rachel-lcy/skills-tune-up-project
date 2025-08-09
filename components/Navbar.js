@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="absolute top-0 left-0 w-full z-50 bg-[rgba(0,7,90,0.46)] text-white">
+    <header className="bg-[#00075A] absolute top-0 left-0 w-full z-50  text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
