@@ -64,13 +64,13 @@ export default function Home() {
           </ul>
 
 
-          <div className="flex justify-center items-center gap-6 sm:gap-10 flex-wrap">
+          {/* <div className="flex justify-center items-center gap-6 sm:gap-10 flex-wrap">
             <Image src="/school.png" alt="icon1" width={60} height={60} />
               <Image src="/school.png" alt="icon2" width={60} height={60} />
               <Image src="/school.png" alt="icon3" width={60} height={60} />
               <Image src="/school.png" alt="icon4" width={60} height={60} />
               <Image src="/school.png" alt="icon5" width={60} height={60} />
-          </div>
+          </div> */}
         </div>
       </section>
 
