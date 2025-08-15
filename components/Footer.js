@@ -25,7 +25,7 @@ export default function Footer() {
           <Link href="/" className="hover:text-yellow-300 transition">Home</Link>
           <Link href="/program" className="hover:text-yellow-300 transition">Program</Link>
           <Link href="/contact" className="hover:text-yellow-300 transition">Contact</Link>
-          <Link href="/faq" className="hover:text-yellow-300 transition">FAQ</Link>
+          {/* <Link href="/faq" className="hover:text-yellow-300 transition">FAQ</Link> */}
         </nav>
       </div>
     </footer>
