@@ -1,5 +1,5 @@
 'use client';
-import { useCart } from '../src/context/CartContext';
+import { useCart } from '../context/CartContext';
 
 export default function ClearCartButton({ fullWidth = false, className = '' }) {
   const { cartCount, clearCart } = useCart();
